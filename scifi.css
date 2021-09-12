@@ -10,7 +10,8 @@ h1{
 }
 
 img{
-    padding: 2rem;
+    padding: 2rem 0 2rem 4rem;
+    
 }
 .grid{
     display: inline-block;
