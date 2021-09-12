@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body {
+    height: 100%;
+    background: black;
+  }
+  
+  .wrapper {
+    height: 100%;
+    
+  }
+  
+  .fixed {
+    height: 100%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(b99.jpg);
+    
+    
+    
+  }
+  .name{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 1rem 0 1rem 0;
+    
+  }
+  .description{
+    color: white;
+    position: fixed; /* Stay fixed */
+    top: 65%;
+    left: 2rem;
+    font-size: 20pt;
+    
+  }
+.card{
+    
+    /* padding: 1rem; */
+    width: 19rem;
+    height: 19rem;
+    text-align: center;
+    display:inline-block;
+    align-self: center;
+    margin: 0 0 0 5rem;
+    transition: 0.3s;
+    color: white;
+    background-color:linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
+    
+  }
+  .card:hover {
+    box-shadow: 0 12px 16px 0 rgba(247, 28, 28, 0.637) ;
+    transform: scale(1.25);
+  }
+  
+  img{
+    width: 19rem;
+  }
