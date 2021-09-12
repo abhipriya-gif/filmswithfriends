@@ -1,22 +1,36 @@
 *{
     margin: 0;
-    padding: 0;
+    padding-left: 1rem;
     background-color: black;
     color: white;
+    font-family: 'Montserrat';
 }
 h1{
     align-self: center;
 }
+
 img{
+    padding: 2rem;
+}
+.grid{
+    display: inline-block;
+}
+button{
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
     margin: 1rem;
+    width: 20%;
+    height: 3rem;
     padding: 1rem;
+    font-family: 'Montserrat';
+    background-color: rgb(230, 227, 227)
 }
-a{
-    display: grid;
+button a{
+    text-decoration: none;
+    background-color: inherit;
+    color: black;
 }
-.i1{
-    grid-column-start: 1;
-}
-.i2{
-    grid-column-start: 2;
+a:hover{
+    transform: scale(1.1);
 }
