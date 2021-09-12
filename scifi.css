@@ -7,6 +7,9 @@
 h1{
     align-self: center;
 }
+img{
+margin: 1rem;
+}
 a{
     display: grid;
 }
